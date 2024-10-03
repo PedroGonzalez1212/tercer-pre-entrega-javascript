@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-entrega 3: JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #f4f4f4;
+            padding: 8px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gestor de Tareas</h1>
+
+    <form id="taskForm">
+        <div class="form-group">
+            <label for="task">Nueva tarea:</label>
+            <input type="text" id="task" required>
+        </div>
+        <button type="submit">Agregar tarea</button>
+    </form>
+
+    <h2>Mis Tareas</h2>
+    <ul id="taskList"></ul>
+
+    <script src="preentrega.js"></script>
+</body>
+</html>
